@@ -1,0 +1,17 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+AufgabenverwaltungMvc
+</name>
+</assembly>
+<members>
+<member name="M:AufgabenverwaltungMvc.Aufgabe.gibAlsAufgabeEntity">
+	<summary>
+ Objekt der Model-Klasse als Objekt der Entity-Klasse zurückgeben
+ </summary>
+	<returns>Objekt der Entity-Klassse mit den Attributwerten der Objekts der Model-Klasse.</returns>
+	<remarks></remarks>
+</member>
+</members>
+</doc>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="dbStoreContainer" CdmEntityContainer="AufgabenDb">
+    <EntitySetMapping Name="tblAufgaben">
+      <EntityTypeMapping TypeName="db.tblAufgaben">
+        <MappingFragment StoreEntitySet="tblAufgaben">
+          <ScalarProperty Name="aufIdPk" ColumnName="aufIdPk" />
+          <ScalarProperty Name="aufTitel" ColumnName="aufTitel" />
+          <ScalarProperty Name="aufBeschreibung" ColumnName="aufBeschreibung" />
+          <ScalarProperty Name="aufFaellig" ColumnName="aufFaellig" />
+          <ScalarProperty Name="aufErledigt" ColumnName="aufErledigt" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

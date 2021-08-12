@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="db" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="AufgabenDb" p1:LazyLoadingEnabled="true">
+    <EntitySet Name="tblAufgaben" EntityType="db.tblAufgaben" />
+  </EntityContainer>
+  <EntityType Name="tblAufgaben">
+    <Key>
+      <PropertyRef Name="aufIdPk" />
+    </Key>
+    <Property Name="aufIdPk" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="aufTitel" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="aufBeschreibung" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="aufFaellig" Type="DateTime" Precision="3" />
+    <Property Name="aufErledigt" Type="Boolean" />
+  </EntityType>
+</Schema>

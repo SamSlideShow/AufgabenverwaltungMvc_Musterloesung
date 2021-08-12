@@ -1,0 +1,13 @@
+﻿/* Validiation Summary und Message*/
+
+.validation-summary-valid {
+    display: none;
+}
+
+.validation-summary-errors {
+    color: red;
+}
+
+.field-validation-error {
+    color: red;
+}
